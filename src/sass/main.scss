@@ -1,3 +1,5 @@
+$textcolor: lightgrey;
+
 .page-header {
     width: 100vw;
     min-width: 700px;
@@ -35,15 +37,15 @@ ul {
     padding-top: 10px;
     padding-bottom: 5px;
     text-transform: uppercase;
-    color: lightgrey;
+    color: $textcolor;
     font-size: 13px;
 }
 .emp-address {
-    color: lightgrey;
+    color: $textcolor;
     padding-top: 10px;
 }
 .emp-phone {
-    color: lightgrey;
+    color: $textcolor;
     padding-top: 10px;
 }
 .emp-ssn {
